@@ -1,0 +1,16 @@
+<h1>hELLOWwORLD!</h1>
+<p>OHOOOO</p>
+<p>hello {{first_name}}</p>
+<p>hello {{stuff}}</p>
+<h3>
+    {% for box in bigbox %}
+        {% if box == 14 %}
+            {{ box+100 }}</br>
+        {% else %}
+            {{ box }}</br>
+        {% endif %}
+    {% endfor %}
+</h3>
+{{ bigbox[0] }}</br>
+{{ bigbox[1] }}</br>
+{{ bigbox[2] }}</br>
